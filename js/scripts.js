@@ -1,4 +1,3 @@
-let pokemonRepository = (function) {
   let pokemonList = [{
     name: 'Squirtel',
     height: 0.5,
@@ -14,5 +13,4 @@ let pokemonRepository = (function) {
     height: 2.1,
     type: ['normal']
   },
-  }]
-}
+  ]
