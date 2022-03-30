@@ -1,7 +1,8 @@
 //IIFE
 let pokemonRepository = (function() {
 
-  let pokemonList = [{
+  let pokemonList = [
+    {
     name: 'Squirtel',
     height: 0.5,
     type: ['water']
@@ -28,7 +29,6 @@ return {
       };
 })();
 
-pokemonList.forEach(function(pokemon){
 pokemonRepository.getAll().forEach(function(pokemon){
 document.write(pokemon.name + " with type: (" + pokemon.type + ") " + "and" + " (height :" + pokemon.height + "),   ")
 });
